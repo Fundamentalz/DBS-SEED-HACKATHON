@@ -15,4 +15,4 @@ app = Flask(__name__)
 # Testing URL
 @app.route('/healthy/', methods=['GET', 'POST'])
 def hello_world():
-    return 'Hellow world'
+    return 'good bye'
