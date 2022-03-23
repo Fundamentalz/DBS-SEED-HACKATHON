@@ -16,3 +16,7 @@ app = Flask(__name__)
 @app.route('/healthy/', methods=['GET', 'POST'])
 def hello_world():
     return 'good bye'
+
+@app.route('/whereami/', methods=['GET'])
+def where_am_i():
+    return 'hall 15'
