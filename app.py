@@ -17,6 +17,6 @@ app = Flask(__name__)
 def hello_world():
     return 'good bye'
 
-@app.route('/whereami/', methods=['GET'])
-def where_am_i():
-    return 'hall 15'
+@app.route('/', methods=['GET'])
+def bye_world():
+	return {'hall':15,'room':1424}
